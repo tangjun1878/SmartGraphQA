@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+
+        },
+        {
+            "name": "main",
+            "type": "python",
+            "request": "launch",
+            "python": "/home/miniconda3/envs/langchain/bin/python", // 指定python解释器
+            "program": "/extend_disk/langchain/SmartGraphQA-master/main_GraphRetriever.py",
+            "console": "integratedTerminal",
+            "justMyCode": true, 
+            "args": [ 
+
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0",  // 设置环境变量指向GPU 1
+                // "OPENAI_API_KEY":"sk-h7E1zMfVCiF8mYQ0Aa4fDb23E4Bb4f3fAc0aFf9dB57aC260",
+                // "OPENAI_API_BASE":"http://182.140.215.17:18800/v1"
+            }
+
+           
+        }
+
+
+    ]
+}
