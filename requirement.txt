@@ -1,0 +1,21 @@
+
+# 数据库的版本neo4j:5.12.0
+
+
+langchain
+langchain_community
+langchain_openai
+networkx
+matplotlib
+PyMuPDF
+
+
+
+
+
+
+
+
+
+
+
