@@ -20,7 +20,7 @@
 ## 效果图
 
 <div align="center">
-  <img src="..DataBase/images/pdf转md效果.png" alt="pdf转makedown" width="600"/>
+  <img src="../../DataBase/images/pdf转md效果.png" alt="pdf转makedown" width="600"/>
   <p><em>图：PDF转makedown效果图</em></p>
 </div>
 
